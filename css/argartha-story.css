@@ -28,7 +28,6 @@ body {
     min-height: 100vh;
 }
 
-/* Hero Section */
 .hero {
     min-height: 100vh;
     display: flex;
@@ -110,7 +109,6 @@ body {
     }
 }
 
-/* Main Content Area */
 .content-wrapper {
     max-width: 800px;
     margin: 0 auto;
@@ -141,7 +139,6 @@ body {
     background: linear-gradient(-90deg, rgba(0, 0, 0, 0.1), transparent);
 }
 
-/* Typography */
 h1 {
     font-family: 'Cinzel', serif;
     font-size: 2.5rem;
@@ -192,13 +189,11 @@ em {
     color: #444;
 }
 
-/* Dialogue Styling */
 p>strong:first-child {
     display: inline-block;
     min-width: 120px;
 }
 
-/* Lists */
 ul {
     margin: 1.5rem 0;
     padding-left: 0;
@@ -225,7 +220,6 @@ ul li p {
     display: inline;
 }
 
-/* Decorative Elements */
 .chapter-break {
     text-align: center;
     margin: 3rem 0;
@@ -238,7 +232,6 @@ ul li p {
     content: '⬥ ⬥ ⬥';
 }
 
-/* Header styling for title block */
 header {
     text-align: center;
     margin-bottom: 3rem;
@@ -258,7 +251,6 @@ header p {
     color: #666;
 }
 
-/* Table of Contents styling */
 .toc {
     background: rgba(201, 165, 92, 0.1);
     padding: 2rem;
@@ -288,7 +280,6 @@ header p {
     color: var(--accent-red);
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     body {
         font-size: 16px;
@@ -311,7 +302,6 @@ header p {
     }
 }
 
-/* Print styles */
 @media print {
     .hero {
         display: none;
@@ -327,7 +317,6 @@ header p {
     }
 }
 
-/* Scroll progress indicator */
 .progress-bar {
     position: fixed;
     top: 0;
@@ -339,7 +328,6 @@ header p {
     transition: width 0.1s;
 }
 
-/* Back to top button */
 .back-to-top {
     position: fixed;
     bottom: 2rem;
